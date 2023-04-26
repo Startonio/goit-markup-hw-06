@@ -502,7 +502,7 @@ body {
     padding-left: 120px;
 }
 
-.footer-logo {}
+.footer-from {}
 
 .footer-container {
     display: flex;
@@ -516,6 +516,16 @@ body {
     line-height: calc(24 / 16);
     letter-spacing: 0.02em;
     color: #FFFFFF;
+}
+
+.footer-title-subscribe {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: calc(24 / 16);
+    letter-spacing: 0.02em;
+    color: #FFFFFF;
+    margin-bottom: 16px;
 }
 
 .footer-soc-list {
@@ -761,7 +771,7 @@ body {
 
 .modal {
     width: 408px;
-    height: 576px;
+    min-height: 576px;
     background-color: #ffffff;
     border-radius: 5px;
     position: absolute;
@@ -808,6 +818,7 @@ body {
 
 .input-wrap {
     position: relative;
+    padding-left: 10px;
 }
 
 .modal-input {
@@ -931,9 +942,9 @@ body {
     fill: #f4f4fd;
 }
 
-.input-check:focus+.check-text span {
+/* .input-check:focus+.check-text span {
     background-color: var(--focus-hover);
-}
+} */
 
 .check-link {
     font-weight: 400;
